@@ -1,7 +1,7 @@
 {
    "functions": {
       "pages/api/files.ts": {
-         "includeFiles": "quests/*.txt"
+         "includeFiles": "/quests/*.txt"
       }
    }
 }
