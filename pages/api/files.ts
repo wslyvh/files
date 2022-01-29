@@ -1,7 +1,8 @@
 import { join, resolve } from 'path'
 import fs from 'fs'
+import { NextApiRequest, NextApiResponse } from 'next';
 
-export default function handler(req, res) {
+export default function handler(req: NextApiRequest, res: NextApiResponse<any>) {
   console.log('Files handler..')
 
   try {
