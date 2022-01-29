@@ -1,6 +1,6 @@
 {
    "functions": {
-      "api/files.js": {
+      "pages/api/files.js": {
          "includeFiles": "quests/*.txt"
       }
    }
